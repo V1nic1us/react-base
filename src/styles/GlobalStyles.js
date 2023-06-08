@@ -37,6 +37,16 @@ export default createGlobalStyle`
   ul{
     list-style: none;
   }
+
+  body .Toastify .Toastify__toast-container .Toastify__toast--success{
+    background: ${colors.blackColor};
+    color: ${colors.whiteColor};
+  }
+
+  body .Toastify .Toastify__toast-container .Toastify__toast--error{
+    background: ${colors.blackColor};
+    color: ${colors.whiteColor};
+  }
 `;
 
 export const Container = styled.section`
