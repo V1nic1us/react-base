@@ -8,7 +8,7 @@ const requisicao = () =>
   new Promise((resolve, reject) => {
     setTimeout(() => {
       resolve();
-    }, 2000);
+    }, 300);
   });
 
 function* exampleRequest() {
